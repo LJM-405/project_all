@@ -1,0 +1,6 @@
+name=input("이름을 입력하세요")
+year=int(input("태어난해를 입력하세요"))
+age=(2026-year)
+print(type(year))
+print(f"{name}님은 올해 {age}입니다.")
+print(f"{name}님은 내년에{age+1}입니다")
